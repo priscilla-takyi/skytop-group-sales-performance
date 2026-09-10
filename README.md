@@ -405,11 +405,10 @@ Overall, the project demonstrates how Power BI can transform raw financial data 
 
 ## Author
 Priscilla Takyi
+
 Data Analytics Portfolio
 
 
----
-License
+## License
 
 This project is intended for educational and portfolio purposes.
----
