@@ -12,7 +12,6 @@ The underlying dataset contains **700 sales records** covering **2013 and 2014**
 
 ## Dashboard Preview
 
-![SKYTOP GROUP Sales Performance Dashboard](dashboard.png)
 
 ---
 
