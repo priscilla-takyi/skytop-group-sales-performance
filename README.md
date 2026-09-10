@@ -309,3 +309,120 @@ Interactive Visualizations
 Performance Analysis
         ↓
 Business Insights & Recommendations
+```
+---
+The data was prepared and analyzed using Microsoft Power BI, with Microsoft Excel serving as the source dataset.
+
+## Data Dictionary
+The source dataset contains the following fields:
+| Field               | Description                             |
+| ------------------- | --------------------------------------- |
+| Segment             | Customer or business segment            |
+| Country             | Country associated with the transaction |
+| Product             | Product sold                            |
+| Discount Band       | Discount category applied               |
+| Units Sold          | Number of units sold                    |
+| Manufacturing Price | Manufacturing cost per unit             |
+| Sale Price          | Selling price per unit                  |
+| Gross Sales         | Sales before discounts                  |
+| Discounts           | Discount amount                         |
+| Sales               | Sales after discounts                   |
+| COGS                | Cost of goods sold                      |
+| Profit              | Profit generated from the transaction   |
+| Date                | Transaction date                        |
+| Month Number        | Numeric month                           |
+| Month Name          | Month name                              |
+| Year                | Year of transaction                     |
+---
+
+---
+## Tools & Technologies
+Power BI
+
+Used for:
+- Data modeling
+- Data transformation
+- DAX calculations
+- KPI development
+- Interactive filtering
+- Data visualization
+- Business intelligence reporting
+---
+
+---
+Microsoft Excel
+- Used as the source dataset for the financial analysis.
+---
+
+---
+## Project Structure
+powerbi-skytop-group-sales-performance/
+│
+├── README.md
+│
+├── PowerBI/
+│   └── Skytop_Group_Sales_Performance.pbix
+│
+├── Data/
+│   └── Financial_Data.xlsx
+│
+└── Screenshots/
+    └── dashboard.png
+---
+
+---
+## Limitations
+
+This project is primarily a descriptive sales performance analysis.
+
+The dataset provides useful information about sales, costs, discounts, products, countries, segments, and dates, but it does not contain enough information to establish causal relationships between business decisions and observed outcomes.
+
+For example, the data can show that the Enterprise segment generated a negative profit, but it cannot independently explain why this occurred.
+
+Therefore, the insights and recommendations should be treated as areas for management investigation rather than definitive causal conclusions.
+---
+
+---
+## Potential Future Improvements
+
+The project could be expanded by adding:
+
+- Year-over-year growth calculations
+- Sales growth percentage
+- Profit growth percentage
+- Discount-to-sales ratio
+- Product profitability matrix
+- Country profitability matrix
+- Segment-level trend analysis
+- Dynamic KPI comparisons
+- Drill-through pages
+- Tooltips with additional financial metrics
+- Forecasting
+- More detailed discount effectiveness analysis
+
+These additions would provide greater analytical depth and support more advanced decision-making.
+---
+
+---
+## Conclusion
+
+The SKYTOP GROUP Sales Performance Dashboard provides an interactive view of the company's financial performance across products, countries, customer segments, and time.
+
+The analysis shows strong overall sales and profitability, but also highlights important differences between revenue and profit performance.
+
+Paseo leads in total sales and profit, while Amarilla achieves the strongest product-level margin. The United States generates the highest country sales, while Germany and France demonstrate stronger margins. The Government segment is the largest contributor to both sales and profit, whereas the Enterprise segment requires attention because of its negative profitability.
+
+Overall, the project demonstrates how Power BI can transform raw financial data into an interactive analytical tool that supports performance monitoring, business questioning, and data-driven decision-making.
+---
+
+---
+## Author
+Priscilla Takyi
+Data Analytics Portfolio
+---
+
+---
+License
+
+This project is intended for educational and portfolio purposes.
+---
